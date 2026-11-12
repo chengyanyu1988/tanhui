@@ -152,16 +152,16 @@ export interface PeakControlRankingItem {
 }
 
 export const PEAK_CONTROL_RANKING: PeakControlRankingItem[] = [
-  { rank: 1, city: '合肥市', progress: 93, tag: '省会先锋', targetLimit: 3200, actualControl: 2980, reductionRate: '-7.2%', expectedPeakYear: '2027年', status: '超前推进', updatedAt: '2026-10-28' },
-  { rank: 2, city: '芜湖市', progress: 80, tag: '沿江制造', targetLimit: 4500, actualControl: 4320, reductionRate: '-5.4%', expectedPeakYear: '2028年', status: '超前推进', updatedAt: '2026-10-28' },
-  { rank: 3, city: '淮北市', progress: 75, tag: '矿区转型', targetLimit: 2800, actualControl: 2580, reductionRate: '-6.1%', expectedPeakYear: '2028年', status: '达标在控', updatedAt: '2026-10-28' },
-  { rank: 4, city: '滁州市', progress: 65, tag: '光伏产业', targetLimit: 3400, actualControl: 3150, reductionRate: '-4.6%', expectedPeakYear: '2028年', status: '达标在控', updatedAt: '2026-10-28' },
-  { rank: 5, city: '安庆市', progress: 55, tag: '沿江生态', targetLimit: 3600, actualControl: 3340, reductionRate: '-3.8%', expectedPeakYear: '2029年', status: '达标在控', updatedAt: '2026-10-28' },
-  { rank: 6, city: '马鞍山市', progress: 50, tag: '钢铁减碳', targetLimit: 5000, actualControl: 4850, reductionRate: '-3.2%', expectedPeakYear: '2029年', status: '重点监管', updatedAt: '2026-10-28' },
-  { rank: 7, city: '淮南市', progress: 40, tag: '能源基地', targetLimit: 2900, actualControl: 2620, reductionRate: '-2.9%', expectedPeakYear: '2029年', status: '重点监管', updatedAt: '2026-10-28' },
-  { rank: 8, city: '蚌埠市', progress: 35, tag: '新材料基', targetLimit: 4000, actualControl: 3850, reductionRate: '-2.1%', expectedPeakYear: '2030年前', status: '重点监管', updatedAt: '2026-10-28' },
-  { rank: 9, city: '阜阳市', progress: 30, tag: '现代农业', targetLimit: 3100, actualControl: 2920, reductionRate: '-1.8%', expectedPeakYear: '2030年前', status: '重点监管', updatedAt: '2026-10-28' },
-  { rank: 10, city: '宿州市', progress: 28, tag: '平原林网', targetLimit: 2600, actualControl: 2480, reductionRate: '-1.5%', expectedPeakYear: '2030年前', status: '重点监管', updatedAt: '2026-10-28' },
+  { rank: 1, city: '合肥市', progress: 93, tag: '省会先锋', targetLimit: 3200, actualControl: 2980, reductionRate: '-7.2%', expectedPeakYear: '2027年', status: '超前推进', updatedAt: '2026-11-11' },
+  { rank: 2, city: '芜湖市', progress: 80, tag: '沿江制造', targetLimit: 4500, actualControl: 4320, reductionRate: '-5.4%', expectedPeakYear: '2028年', status: '超前推进', updatedAt: '2026-11-11' },
+  { rank: 3, city: '淮北市', progress: 75, tag: '矿区转型', targetLimit: 2800, actualControl: 2580, reductionRate: '-6.1%', expectedPeakYear: '2028年', status: '达标在控', updatedAt: '2026-11-11' },
+  { rank: 4, city: '滁州市', progress: 65, tag: '光伏产业', targetLimit: 3400, actualControl: 3150, reductionRate: '-4.6%', expectedPeakYear: '2028年', status: '达标在控', updatedAt: '2026-11-11' },
+  { rank: 5, city: '安庆市', progress: 55, tag: '沿江生态', targetLimit: 3600, actualControl: 3340, reductionRate: '-3.8%', expectedPeakYear: '2029年', status: '达标在控', updatedAt: '2026-11-11' },
+  { rank: 6, city: '马鞍山市', progress: 50, tag: '钢铁减碳', targetLimit: 5000, actualControl: 4850, reductionRate: '-3.2%', expectedPeakYear: '2029年', status: '重点监管', updatedAt: '2026-11-11' },
+  { rank: 7, city: '淮南市', progress: 40, tag: '能源基地', targetLimit: 2900, actualControl: 2620, reductionRate: '-2.9%', expectedPeakYear: '2029年', status: '重点监管', updatedAt: '2026-11-11' },
+  { rank: 8, city: '蚌埠市', progress: 35, tag: '新材料基', targetLimit: 4000, actualControl: 3850, reductionRate: '-2.1%', expectedPeakYear: '2030年前', status: '重点监管', updatedAt: '2026-11-11' },
+  { rank: 9, city: '阜阳市', progress: 30, tag: '现代农业', targetLimit: 3100, actualControl: 2920, reductionRate: '-1.8%', expectedPeakYear: '2030年前', status: '重点监管', updatedAt: '2026-11-11' },
+  { rank: 10, city: '宿州市', progress: 28, tag: '平原林网', targetLimit: 2600, actualControl: 2480, reductionRate: '-1.5%', expectedPeakYear: '2030年前', status: '重点监管', updatedAt: '2026-11-11' },
 ];
 
 export interface PeakTrendPoint {
@@ -216,7 +216,7 @@ export interface NeutralEnterpriseRecord {
 export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   {
     id: 1,
-    date: '2026-10-28',
+    date: '2026-11-11',
     enterpriseName: '安徽海螺水泥股份有限公司（包河低碳运营中心）',
     shortName: '海螺水泥',
     district: '合肥市',
@@ -231,7 +231,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 71,
     investment: 1000,
     startTime: '2025-01-01',
-    endTime: '2026-10-28',
+    endTime: '2026-11-11',
     projectType: '皖南山区水系水源保护林碳汇配额定向核销',
     verifier: '中国质量认证中心 (CQC)',
     status: '达标在控',
@@ -239,7 +239,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 2,
-    date: '2026-10-28',
+    date: '2026-11-10',
     enterpriseName: '铜陵有色金属集团控股有限公司',
     shortName: '铜陵有色',
     district: '铜陵市',
@@ -249,7 +249,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 89,
     investment: 2000,
     startTime: '2025-01-01',
-    endTime: '2026-10-28',
+    endTime: '2026-11-10',
     projectType: '长江沿线生态复绿林与矿区废弃地植被固碳',
     verifier: '中环联合认证中心 (CEC)',
     status: '超前中和',
@@ -257,7 +257,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 3,
-    date: '2026-10-27',
+    date: '2026-11-09',
     enterpriseName: '马钢（集团）控股有限公司',
     shortName: '马钢股份',
     district: '马鞍山市',
@@ -267,7 +267,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 81,
     investment: 1000,
     startTime: '2025-02-01',
-    endTime: '2026-10-27',
+    endTime: '2026-11-09',
     projectType: '大别山中幼林抚育与碳汇资产挂牌认购',
     verifier: '方圆标志认证集团 (CQM)',
     status: '达标在控',
@@ -275,7 +275,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 4,
-    date: '2026-10-26',
+    date: '2026-11-08',
     enterpriseName: '淮河能源控股集团煤电分公司',
     shortName: '淮河能源',
     district: '淮南市',
@@ -285,7 +285,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 83,
     investment: 1500,
     startTime: '2025-03-01',
-    endTime: '2026-10-26',
+    endTime: '2026-11-08',
     projectType: '两淮沉陷区湿地森林水网碳汇综合开发',
     verifier: '广州碳排放权交易中心绿碳部',
     status: '达标在控',
@@ -293,7 +293,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 5,
-    date: '2026-10-25',
+    date: '2026-11-07',
     enterpriseName: '安徽叉车集团绿色制造示范基地',
     shortName: '安徽叉车',
     district: '合肥市',
@@ -303,7 +303,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 68,
     investment: 1000,
     startTime: '2025-01-15',
-    endTime: '2026-10-25',
+    endTime: '2026-11-07',
     projectType: '环巢湖生态屏障湿地林带固碳对冲核销',
     verifier: '中国节能协会碳中和认证专委会',
     status: '重点盯防',
@@ -311,7 +311,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 6,
-    date: '2026-10-24',
+    date: '2026-11-06',
     enterpriseName: '安徽省能源集团皖能合肥发电有限公司',
     shortName: '皖能电力',
     district: '合肥市',
@@ -321,7 +321,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 58,
     investment: 1200,
     startTime: '2025-02-15',
-    endTime: '2026-10-24',
+    endTime: '2026-11-06',
     projectType: '江淮分水岭绿化带人工造林碳汇储备采购',
     verifier: '华测认证有限公司 (CTI)',
     status: '重点盯防',
@@ -329,7 +329,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 7,
-    date: '2026-10-23',
+    date: '2026-11-05',
     enterpriseName: '黄山旅游发展股份有限公司生态碳汇部',
     shortName: '黄山旅游',
     district: '黄山市',
@@ -339,7 +339,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 92,
     investment: 2500,
     startTime: '2025-01-01',
-    endTime: '2026-10-23',
+    endTime: '2026-11-05',
     projectType: '黄山天然针阔混交林生态保育CCER机制抵扣',
     verifier: '北京绿色交易所 (BGE)',
     status: '超前中和',
@@ -347,7 +347,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 8,
-    date: '2026-10-22',
+    date: '2026-11-04',
     enterpriseName: '合肥京东方光电科技有限公司',
     shortName: '京东方光电',
     district: '合肥市',
@@ -357,7 +357,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 78,
     investment: 1100,
     startTime: '2025-03-10',
-    endTime: '2026-10-22',
+    endTime: '2026-11-04',
     projectType: '皖北平原农田防护林带跨区域指标认购',
     verifier: '上海环境能源交易所',
     status: '达标在控',
@@ -365,7 +365,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 9,
-    date: '2026-10-20',
+    date: '2026-11-02',
     enterpriseName: '徽商银行绿色金融低碳运营中心',
     shortName: '徽商银行',
     district: '合肥市',
@@ -375,7 +375,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 85,
     investment: 950,
     startTime: '2025-01-01',
-    endTime: '2026-10-20',
+    endTime: '2026-11-02',
     projectType: '安徽省林业碳票首期乡村振兴公益核销',
     verifier: '中国船级社质量认证公司 (CCSC)',
     status: '超前中和',
@@ -383,7 +383,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
   },
   {
     id: 10,
-    date: '2026-10-18',
+    date: '2026-10-31',
     enterpriseName: '国家能源集团宿州热电有限公司',
     shortName: '国能宿州',
     district: '宿州市',
@@ -393,7 +393,7 @@ export const NEUTRAL_ENTERPRISE_DATA: NeutralEnterpriseRecord[] = [
     progress: 75,
     investment: 1000,
     startTime: '2025-04-01',
-    endTime: '2026-10-18',
+    endTime: '2026-10-31',
     projectType: '宿州埇桥平原森林公园生态固碳综合核证',
     verifier: '中国质量认证中心 (CQC)',
     status: '达标在控',
@@ -601,7 +601,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
   const [neutralEnterpriseSearch, setNeutralEnterpriseSearch] = useState<string>('');
   const [neutralProgressMin, setNeutralProgressMin] = useState<string>('');
   const [neutralProgressMax, setNeutralProgressMax] = useState<string>('');
-  const [neutralDateRange, setNeutralDateRange] = useState<string>('2026-10-01 ~ 2026-10-28');
+  const [neutralDateRange, setNeutralDateRange] = useState<string>('2026-10-01 ~ 2026-11-11');
   const [neutralPage, setNeutralPage] = useState<number>(1);
   const [neutralPageSize, setNeutralPageSize] = useState<number>(10);
   const [neutralJumpPage, setNeutralJumpPage] = useState<string>('');
@@ -764,7 +764,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
               <option value="达标在控">达标在控</option>
               <option value="重点监管">重点监管</option>
             </select>
-            <span className="text-[11px] text-slate-400 font-mono">数据更新：2026-10-28</span>
+            <span className="text-[11px] text-slate-400 font-mono">数据更新：2026-11-11</span>
           </div>
         </div>
 
@@ -1135,7 +1135,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
           </div>
 
           <div className="flex items-center gap-4 text-xs font-mono">
-            <span className="text-slate-400">数据更新：2026-10-28</span>
+            <span className="text-slate-400">数据更新：2026-11-11</span>
             <span className="text-[11px] text-emerald-400 bg-emerald-950/80 border border-emerald-800/60 px-2 py-0.5 rounded">
               单位：万吨
             </span>
@@ -1727,7 +1727,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
             <span className="w-1.5 h-4 bg-[#00c88c] rounded-xs inline-block" />
             <h2 className="text-sm font-bold text-white tracking-wide">安徽省林业碳达峰智能立体管控指挥中心</h2>
             <span className="text-[11px] text-emerald-400 font-mono bg-emerald-950/80 border border-emerald-800/60 px-2 py-0.5 rounded">
-              2026-10-28 动态核算实时在网
+              2026-11-11 动态核算实时在网
             </span>
           </div>
 
@@ -1964,7 +1964,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
       setNeutralEnterpriseSearch('');
       setNeutralProgressMin('');
       setNeutralProgressMax('');
-      setNeutralDateRange('2026-10-01 ~ 2026-10-28');
+      setNeutralDateRange('2026-10-01 ~ 2026-11-11');
       setNeutralPage(1);
     };
 
@@ -1973,7 +1973,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
       setIsSyncingData(true);
       setTimeout(() => {
         setIsSyncingData(false);
-        setSyncToastMessage('已成功同步国家碳排放注册登记簿与安徽省林业碳汇核销最新台账 (2026-10-28)');
+        setSyncToastMessage('已成功同步国家碳排放注册登记簿与安徽省林业碳汇核销最新台账 (2026-11-11)');
         setTimeout(() => setSyncToastMessage(null), 3500);
       }, 1200);
     };
@@ -2187,7 +2187,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
             </button>
 
             <span className="text-[11px] font-mono text-slate-400 ml-auto">
-              * 数据更新基准：2026-10-28 23:59 (近期实测最新)
+              * 数据更新基准：2026-11-11 23:59 (近期实测最新)
             </span>
           </div>
         </div>
@@ -2589,7 +2589,7 @@ export const CarbonIndustryView: React.FC<CarbonIndustryViewProps> = ({
             </div>
 
             <span className="text-[11px] font-mono text-emerald-400 bg-emerald-950/80 border border-emerald-800/60 px-2 py-0.5 rounded">
-              2026-10 最新动态核算在网
+              2026-11 最新动态核算在网
             </span>
           </div>
         </div>
