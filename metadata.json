@@ -1,0 +1,8 @@
+{
+  "name": "Remix EcoCarbon 碳汇管理智能系统",
+  "description": "面向林业、海洋与湿地碳汇资产的MRV全流程监测、智能核算与CCER交易管理协同云平台。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
